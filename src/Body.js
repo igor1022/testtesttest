@@ -55,7 +55,7 @@ useEffect(() => {
   
   return (
     <div className='ProductList'>
-      
+      {content}
       {data.map((elem) => (
        <Component key={elem.id} elem={elem} id={elem.id} setLength={setLength}/>
       ))}
